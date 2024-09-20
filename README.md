@@ -54,7 +54,7 @@ This project demonstrates various core concepts of Node.js, including the event 
 
 ## Navigate to the Project Directory
 ```bash
-cd node-eventloop-demo
+cd node-eventloop-streams
 ```
 
 
