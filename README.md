@@ -72,7 +72,7 @@ node -v
  2. Run the application:
 
 ```bash
-node app.js
+node file-name.js
 ```
 
 3. The application will start an HTTP server at http://127.0.0.1:8000/. You can test it by sending requests using your browser or tools like Postman.
