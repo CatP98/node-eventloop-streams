@@ -17,3 +17,7 @@ console.log(add(5,5));
 console.log(multiply(2,5));
 //This way we only  export what we want, instad pof exporting the entire file
 
+//caching  
+require('./test-module-3.js')(); // the first time the module is imported, is when the module gets stored, so console.log('Hello from the module') is only running once
+require('./test-module-3.js')();
+require('./test-module-3.js')();
